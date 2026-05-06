@@ -59,6 +59,6 @@ Go to `http://localhost:3000`.
 
 ## Notes
 
-**Quota** - Gemini 2.5 Flash has a low free-tier daily quota. If you hit a `429`, either wait until midnight Pacific time for it to reset, or switch to `gemini-2.0-flash` in `backend/agents.py` (same API shape, much higher free limits).
+**Quota** - Gemini 2.5 Flash has a low free-tier daily quota. If you hit a `429`, either wait until midnight Pacific time for it to reset, or switch to `gemini-2.0-flash` in `backend/agents.py` (same API shape, but a much higher free limits).
 
 **Deployment** - CORS is configured for `localhost:3000` and `*.vercel.app`. If you deploy the backend elsewhere, update `allow_origins` in `backend/main.py`. Set `NEXT_PUBLIC_WS_URL` and `NEXT_PUBLIC_API_URL` in your frontend environment to point at the deployed backend.
