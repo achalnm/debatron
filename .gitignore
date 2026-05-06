@@ -1,0 +1,26 @@
+# Python
+backend/__pycache__/
+backend/*.pyc
+backend/.env
+*.egg-info/
+.venv/
+venv/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env*
+
+# Misc
+.DS_Store
+*.pem
+.dist/
+
+# IDE / editor local config
+.idea/
+.cursor/
+.claude/
+CLAUDE.md
+AGENTS.md
